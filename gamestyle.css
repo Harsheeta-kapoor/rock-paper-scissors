@@ -1,0 +1,151 @@
+/* background: hsla(0, 87%, 79%, 1);
+
+background: radial-gradient(circle, hsla(0, 87%, 79%, 1) 30%, hsla(0, 0%, 99%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 87%, 79%, 1) 30%, hsla(0, 0%, 99%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 87%, 79%, 1) 30%, hsla(0, 0%, 99%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F89999", endColorstr="#FDFDFD", GradientType=1 ); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8ECAE6;
+}
+
+.header {
+    position: relative;
+    top: -10px;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    box-sizing: border-box;
+    background-color: #FFC8DD;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.container .option {
+    width: 100px;
+    margin: 0px 30px;
+    padding: 10px;
+    border-radius: 20%;
+
+}
+
+img {
+    border:5px solid #FFC8DD;
+    border-radius: 20%;
+    height: 200px;
+    /* box-shadow: #1C85A0 0px 10px 36px 0px, #1C85A0 0px 0px 0px 1px; */
+    /* box-shadow: #1C85A0 0px 54px 55px, #1C85A0 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+img:hover {
+    cursor: pointer;
+    /* box-shadow: none; */
+    box-shadow: #1C85A0 0px 10px 36px 0px, #1C85A0 0px 0px 0px 1px;
+}
+
+div.headerbox {
+    height: 50px;
+    width: 210px;
+    border: 3px solid;
+    background-color: #CDB4DB;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 22px;
+    border-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+#text{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;;
+}
+
+#text1{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.player{
+    background-color: #FFAFCC;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 22px;
+    margin-left: -25px;
+}
+
+.timerbox{
+    padding-left: 35px;
+    padding-right: 45px;
+   font-size: 30px;
+   display:flex;
+}
+
+.computer{
+    background-color: #FFAFCC;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 22px;
+    margin-right: -25px;
+    width: 210px;
+}
+
+.timerbox#playerscore{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+span {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin-top:15px;
+}
+
+/* .win {
+    border: 5px solid lime !important;
+}
+
+.lose {
+    border: 5px solid crimson !important;
+} */
